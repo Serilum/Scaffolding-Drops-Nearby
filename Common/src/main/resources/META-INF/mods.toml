@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Scaffolding%20Drops%20Nearby"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Scaffolding%20Drops%20Nearby"
 logoFile="icon.png"
 
 [[mods]]
 modId="scaffoldingdropsnearby"
-version="3.1"
+version="3.2"
 displayName="Scaffolding Drops Nearby"
-displayURL="https://curseforge.com/minecraft/mc-mods/scaffolding-drops-nearby"
+displayURL="https://serilum.com/mod/scaffolding-drops-nearby"
 authors="Rick South"
 description='''When breaking a scaffolding block, all chained blocks will drop at the first block's position.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.scaffoldingdropsnearby]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.scaffoldingdropsnearby]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.2]"
     ordering="NONE"
