@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "scaffoldingdropsnearby",
+  "version": "3.2",
+
+  "name": "Scaffolding Drops Nearby",
+  "description": "When breaking a scaffolding block, all chained blocks will drop at the first block's position.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/scaffolding-drops-nearby",
+    "sources": "https://github.com/Serilum/Scaffolding-Drops-Nearby",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Scaffolding%20Drops%20Nearby"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.scaffoldingdropsnearby.ModFabric" ] },
+
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "java": ">=17",
+    "collective": ">=7.52"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://ricksouth.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " BirdieMiner",
+	  " Cherriesaurus",
+	  " Jack",
+	  " Jeremy Langford",
+	  " Michael W. S.",
+	  " pepe1191",
+	  " Shana Gitnick",
+	  " Tyler Behl"
+  ]
+}
