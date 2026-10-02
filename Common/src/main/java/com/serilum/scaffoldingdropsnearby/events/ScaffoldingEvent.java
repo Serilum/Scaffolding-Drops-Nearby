@@ -1,4 +1,4 @@
-package com.natamus.scaffoldingdropsnearby.events;
+package com.serilum.scaffoldingdropsnearby.events;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;

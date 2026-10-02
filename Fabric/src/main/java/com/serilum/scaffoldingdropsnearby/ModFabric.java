@@ -1,9 +1,9 @@
-package com.natamus.scaffoldingdropsnearby;
+package com.serilum.scaffoldingdropsnearby;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.scaffoldingdropsnearby.events.ScaffoldingEvent;
-import com.natamus.scaffoldingdropsnearby.util.Reference;
+import com.serilum.scaffoldingdropsnearby.events.ScaffoldingEvent;
+import com.serilum.scaffoldingdropsnearby.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;

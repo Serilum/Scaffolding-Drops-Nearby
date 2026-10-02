@@ -1,9 +1,9 @@
-package com.natamus.scaffoldingdropsnearby;
+package com.serilum.scaffoldingdropsnearby;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.scaffoldingdropsnearby.forge.events.ForgeScaffoldingEvent;
-import com.natamus.scaffoldingdropsnearby.util.Reference;
+import com.serilum.scaffoldingdropsnearby.forge.events.ForgeScaffoldingEvent;
+import com.serilum.scaffoldingdropsnearby.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(ForgeScaffoldingEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeScaffoldingEvent.class);
 	}
 
 	private static void setGlobalConstants() {
