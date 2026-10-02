@@ -1,4 +1,4 @@
-package com.natamus.scaffoldingdropsnearby;
+package com.serilum.scaffoldingdropsnearby;
 
 
 public class ModCommon {
