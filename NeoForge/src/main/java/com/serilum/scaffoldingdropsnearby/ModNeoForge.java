@@ -1,9 +1,9 @@
-package com.natamus.scaffoldingdropsnearby;
+package com.serilum.scaffoldingdropsnearby;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.scaffoldingdropsnearby.neoforge.events.NeoForgeScaffoldingEvent;
-import com.natamus.scaffoldingdropsnearby.util.Reference;
+import com.serilum.scaffoldingdropsnearby.neoforge.events.NeoForgeScaffoldingEvent;
+import com.serilum.scaffoldingdropsnearby.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;

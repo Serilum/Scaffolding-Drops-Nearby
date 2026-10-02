@@ -1,7 +1,7 @@
-package com.natamus.scaffoldingdropsnearby.neoforge.events;
+package com.serilum.scaffoldingdropsnearby.neoforge.events;
 
 import com.natamus.collective.functions.WorldFunctions;
-import com.natamus.scaffoldingdropsnearby.events.ScaffoldingEvent;
+import com.serilum.scaffoldingdropsnearby.events.ScaffoldingEvent;
 import net.minecraft.world.level.Level;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
