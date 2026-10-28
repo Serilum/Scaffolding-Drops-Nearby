@@ -1,7 +1,7 @@
-package com.natamus.scaffoldingdropsnearby.forge.events;
+package com.serilum.scaffoldingdropsnearby.forge.events;
 
 import com.natamus.collective.functions.WorldFunctions;
-import com.natamus.scaffoldingdropsnearby.events.ScaffoldingEvent;
+import com.serilum.scaffoldingdropsnearby.events.ScaffoldingEvent;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.event.level.BlockEvent;
